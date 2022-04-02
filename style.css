@@ -132,10 +132,12 @@
 
 .textBox
 {
-    display: flex;
-    justify-content: space-between;
+    /* display: block;
+    justify-content: space-between; */
+    background-color: greenyellow;
     color: white;
     padding: 20px;
+    height: 116px;
 }
 
 .firstBox
@@ -152,6 +154,13 @@
 }
 
 .secondBox
+{
+    display: flex;
+}
+
+
+
+/* .secondBox
 {
     width: 60px;
     height: 60px;
@@ -173,4 +182,17 @@
     height: 60px;
     background-color: white;
     margin-right: 10px;
+} */
+
+.firstLayer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondLayer
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
 }
