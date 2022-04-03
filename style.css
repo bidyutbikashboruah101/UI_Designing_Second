@@ -18,13 +18,16 @@
 {
     background-color: white;
     width: 50%;
-    height: 658px;
+    height: 750px;       /*  658px */
     border-radius: 45px;
 }
 
 .first
 {
-    height: 51%;
+    height: 45%;
+    /* height: 48.1%; */
+    /* height: 42.1%; */
+    /* height: 51%; */
     background-color: #4182EB;
     border-top-right-radius: 45px;
     border-top-left-radius: 45px;
@@ -105,7 +108,10 @@
 
 .second
 {
-    height: 49%;
+    height: 55%;
+    /* height: 51.9%; */
+    /* height: 57.9%; */
+    /* height: 49%; */
     background-color: #1C2331;
     border-bottom-right-radius: 45px;
     border-bottom-left-radius: 45px;
