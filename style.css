@@ -202,3 +202,39 @@
     justify-content: space-between;
     margin-top: 15px;
 }
+
+.buttonBox
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(109, 28, 41);
+    margin-top: 30px;
+    height: 70px;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0px 10px;        /* top-bottom , right-left */
+}
+
+.price
+{   
+    font-size: 30px;
+}
+
+.price::first-letter
+{
+    color: rgb(185, 202, 30);
+    font-size: 25px;
+}
+
+.button
+{
+    background-color: pink;
+    color: black;
+    display: flex;
+    height: 40px;
+    width: 160px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;           /* to bring the finger like cursor on the buttons */
+}
